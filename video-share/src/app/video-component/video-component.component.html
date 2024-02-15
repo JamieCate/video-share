@@ -5,6 +5,7 @@
             <div class="card mt-3">
                 <video src="{{video.source}}" controls class="card-img-top"></video>
                 <div class="card-body">
+                    <p class="card-text">Title: {{ video.title }}</p>
                     <p class="card-text">Descrition: {{video.description}}</p>
                     <p class="card-text">Views: {{video.views | number}}</p>
                     

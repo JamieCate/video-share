@@ -8,7 +8,7 @@ import { VideoService } from '../services/videos.service';
   styleUrl: './video-component.component.css'
 })
 export class VideoComponentComponent implements OnInit {
-videos: Video[] | undefined;
+videos: Video[] = [];
 constructor(private videoService: VideoService) {
 }
 
