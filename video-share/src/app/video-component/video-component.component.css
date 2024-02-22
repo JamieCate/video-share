@@ -1,7 +1,18 @@
 .video-container {
-    margin-top: 50px;
+  margin-top: 50px;
 }
 
 .card-text {
-    font-size: 0.8rem;
+  font-size: 0.8rem;
+  margin: 0;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.card-body {
+  min-height: 130px;
+  max-height: 130px;
 }
